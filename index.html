@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NEN 1010-checker · SPIE</title>
+  <meta name="description" content="Controle van inkoopvoorwaarden op naleving van NEN 1010 voor SPIE.">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site">
+    <div class="wrap">
+      <span class="logo">SPIE</span>
+      <div>
+        <h1>NEN 1010-checker</h1>
+        <p>Controle van inkoopvoorwaarden op naleving van NEN 1010</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="intro">
+      <span class="norm-badge">Toetsingsnorm: <span id="norm-name">NEN 1010</span></span>
+      <h2>Overzicht controles</h2>
+      <p>Per aangeleverde PDF met inkoopvoorwaarden wordt hieronder een controle gepubliceerd:
+         elke relevante bepaling wordt getoetst aan NEN 1010, met bevinding, status en advies.</p>
+      <p class="legend">Legenda:
+        <span class="tag status-voldoet">Voldoet</span>
+        <span class="tag status-aandachtspunt">Aandachtspunt</span>
+        <span class="tag status-voldoet_niet">Voldoet niet</span>
+        <span class="tag status-nvt">N.v.t.</span>
+      </p>
+    </div>
+
+    <div id="checks"></div>
+  </main>
+
+  <footer class="site">
+    <div class="wrap">
+      NEN 1010-checker voor SPIE · controles uitgevoerd op basis van aangeleverde documenten ·
+      geen vervanging voor een formele NEN 1010-inspectie.
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+{
+  "norm": "NEN 1010:2020 (incl. correctieblad/aanvullingen)",
+  "checks": [
+    {
+      "id": "voorbeeld-2026-001",
+      "voorbeeld": true,
+      "document": "VOORBEELD – Inkoopvoorwaarden Elektrotechnische Installatie",
+      "leverancier": "Voorbeeld Leverancier B.V.",
+      "documentversie": "v1.0",
+      "datum_gecontroleerd": "2026-05-26",
+      "gecontroleerd_door": "SPIE NEN1010-checker",
+      "samenvatting": "Dit is een voorbeeldcontrole om het format te tonen. Vervang deze door echte controles zodra de eerste PDF wordt aangeleverd.",
+      "eindoordeel": "aandachtspunt",
+      "regels": [
+        {
+          "onderdeel": "Toegepaste norm",
+          "nen1010_bepaling": "Algemeen / scope",
+          "eis": "Installatie wordt aangelegd conform de actuele NEN 1010 (laagspanningsinstallaties).",
+          "bevinding": "Document verwijst naar 'geldende normen' zonder NEN 1010 expliciet te benoemen.",
+          "status": "aandachtspunt",
+          "advies": "Leg expliciet vast: 'conform NEN 1010:2020' inclusief van toepassing zijnde correctiebladen."
+        },
+        {
+          "onderdeel": "Aardingsvoorzieningen",
+          "nen1010_bepaling": "Deel 5-54 (Aarding en beschermingsleidingen)",
+          "eis": "Aarding en vereffening conform NEN 1010 deel 5-54.",
+          "bevinding": "Voorwaarden beschrijven aarding conform geldende eisen.",
+          "status": "voldoet",
+          "advies": "Geen actie. Borg bij oplevering meetrapport aardingsweerstand."
+        },
+        {
+          "onderdeel": "Beschermingsmaatregelen tegen elektrische schok",
+          "nen1010_bepaling": "Deel 4-41",
+          "eis": "Automatische uitschakeling van de voeding / aanvullende bescherming (o.a. 30 mA aardlekbeveiliging waar vereist).",
+          "bevinding": "Geen bepaling over aardlekbeveiliging opgenomen.",
+          "status": "voldoet_niet",
+          "advies": "Aanvullen met eis 30 mA aardlekbeveiliging voor eindgroepen conform deel 4-41."
+        },
+        {
+          "onderdeel": "Oplevering en inspectie",
+          "nen1010_bepaling": "Deel 6 (Inspectie)",
+          "eis": "Eerste inspectie en meetrapport conform NEN 1010 deel 6 bij oplevering.",
+          "bevinding": "Niet van toepassing op deze inkoopvoorwaarden (valt onder aparte opleveringsovereenkomst).",
+          "status": "nvt",
+          "advies": "Borg inspectie-eis in opleverdossier."
+        }
+      ]
+    }
+  ]
+}

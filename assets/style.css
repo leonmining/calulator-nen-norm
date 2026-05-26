@@ -70,6 +70,31 @@ main { padding: 32px 0 64px; }
   border-radius: 20px;
 }
 
+.scanner {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 20px 24px 24px;
+  margin-bottom: 28px;
+}
+.scanner h2 { margin-top: 0; }
+.dropzone {
+  border: 2px dashed var(--spie-blue-light);
+  border-radius: 10px;
+  background: #f7fafd;
+  text-align: center;
+  padding: 28px 16px;
+  cursor: pointer;
+  transition: background .15s, border-color .15s;
+}
+.dropzone:hover, .dropzone.drag { background: #eef5fc; border-color: var(--spie-blue); }
+.dropzone .dz-icon { font-size: 34px; display: block; }
+.dropzone p { margin: 8px 0 4px; }
+.dropzone .dz-hint { font-size: 12px; color: var(--muted); }
+.scan-status { font-size: 14px; color: var(--spie-blue); min-height: 1.2em; margin: 14px 0 0; }
+.disclaimer { font-size: 12px; color: var(--muted); margin: 14px 0 0; }
+.section-title { margin: 8px 0 14px; }
+
 .card {
   background: var(--card);
   border: 1px solid var(--border);

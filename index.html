@@ -32,6 +32,24 @@
       </p>
     </div>
 
+    <section class="scanner">
+      <h2>Zelf een PDF controleren (snelle scan)</h2>
+      <p>Upload een PDF met inkoopvoorwaarden voor een directe, voorlopige NEN 1010-scan.
+         De PDF wordt <strong>volledig in je eigen browser</strong> gelezen en geanalyseerd —
+         er wordt niets geüpload naar een server.</p>
+      <div id="dropzone" class="dropzone">
+        <span class="dz-icon">📄</span>
+        <p><strong>Klik hier</strong> of sleep een PDF naar dit vak</p>
+        <span class="dz-hint">Alleen PDF · maximaal ± enkele MB · tekst-PDF (geen scan)</span>
+        <input type="file" id="pdf-input" accept="application/pdf" hidden>
+      </div>
+      <p id="scan-status" class="scan-status"></p>
+      <div id="scan-result"></div>
+      <p class="disclaimer">⚠️ Dit is een geautomatiseerde indicatie op basis van trefwoorden en
+         vervangt geen inhoudelijke beoordeling door een NEN 1010-deskundige.</p>
+    </section>
+
+    <h2 class="section-title">Gepubliceerde controles</h2>
     <div id="checks"></div>
   </main>
 
@@ -42,6 +60,8 @@
     </div>
   </footer>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
   <script src="assets/app.js"></script>
+  <script src="assets/scanner.js"></script>
 </body>
 </html>
